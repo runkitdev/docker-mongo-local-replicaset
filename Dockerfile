@@ -1,4 +1,4 @@
-FROM mongo:3.2.21-jessie
+FROM mongo:4.0.24
 
 RUN apt-get update && apt-get install -y --no-install-recommends openssl && rm -rf /var/lib/apt/lists/*
 
